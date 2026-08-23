@@ -4,6 +4,9 @@
     "latest_build": 16,
     "store_url": "https://apps.apple.com/app/id6772439333",
     "message": "Hai Robo 1.5.0 is required to continue. This update fixes an issue where the desk motors could keep running after the app closed, along with smoother rotation and much better battery life on the dock.",
-    "soft_message": "Hai Robo 1.5.0 is available — smoother rotation, better battery, and you can now talk over the robot."
-  }
+    "soft_message": "Hai Robo 1.5.0 is available \u2014 smoother rotation, better battery, and you can now talk over the robot."
+  },
+  "blocked_plugins": [
+    "com.hairobo.breathe"
+  ]
 }
