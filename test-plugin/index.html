@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>My Plugin</title>
+<style>
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0; background:#000; color:#F0EDE6;
+    font:16px/1.5 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    gap:1.25rem; padding:2rem; text-align:center;
+    -webkit-user-select:none; user-select:none;
+  }
+  h1{font-size:1.4rem; margin:0; font-weight:600}
+  p{margin:0; color:#948B79; font-size:.9rem; min-height:1.4em}
+  button{
+    font:inherit; font-size:.95rem; font-weight:600; color:#000;
+    background:#FF8A18; border:none; border-radius:999px;
+    padding:.8rem 1.6rem; cursor:pointer; -webkit-tap-highlight-color:transparent;
+  }
+  button:active{transform:scale(.97)}
+</style>
+</head>
+<body>
+  <h1>My Plugin</h1>
+  <p id="status">Ready.</p>
+  <button id="go">Do something</button>
+<!-- FOR THE SIMULATOR ONLY. The simulator loads your plugin in a plain
+     iframe and does not inject anything, so without this tag `hairobo` is
+     undefined and nothing runs. On a real robot the app injects the SDK
+     before this page loads and this tag simply 404s, which is harmless —
+     which is why hairobo-sdk.js is not in the manifest's `files`. -->
+<script src="../hairobo-sdk.js"></script>
+<script src="plugin.js"></script>
+</body>
+</html>

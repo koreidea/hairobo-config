@@ -1,0 +1,18 @@
+{
+  "id": "com.koreidea.smoketest",
+  "name": "Pipeline Smoke Test",
+  "version": "1.0.0",
+  "author": "Hai Robo",
+  "summary": "Throwaway plugin used to prove the submission pipeline end to end.",
+  "entry": "index.html",
+  "mode": "session",
+  "permissions": [
+    "voice",
+    "eyes"
+  ],
+  "minAppBuild": 17,
+  "files": [
+    "index.html",
+    "plugin.js"
+  ]
+}
