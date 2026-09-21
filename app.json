@@ -1,10 +1,10 @@
 {
   "ios": {
     "min_build": 16,
-    "latest_build": 18,
+    "latest_build": 26,
     "store_url": "https://apps.apple.com/app/id6772439333",
     "message": "Hai Robo 1.5.0 is required to continue. This update fixes an issue where the desk motors could keep running after the app closed, along with smoother rotation and much better battery life on the dock.",
-    "soft_message": "Hai Robo 1.6.0 is available \u2014 plugins, so you can add small extensions to your robot, plus smoother motion and a tidier settings panel."
+    "soft_message": "Hai Robo 1.8.3 is available. A plugin can now be the robot's face, and can answer when you say a phrase it knows. Also: clearer help when a permission is switched off, and full-resolution photos."
   },
   "blocked_plugins": []
 }
